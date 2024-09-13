@@ -4,6 +4,8 @@ body {
   padding: 0;
 }
 
+/* Header */
+
 header {
   background-color: #1f2937;
   color: white;
@@ -27,4 +29,40 @@ header h3 {
   color: #e5e7eb;
   opacity: 0.5;
   font-size: 18px;
+}
+
+/* About */
+
+#about {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+
+#about h1 {
+  margin-top: 0;
+  font-size: 48px;
+}
+
+.about-container {
+  width: 500px;
+  margin: 100px 100px;
+}
+
+.sign-up-btn1 {
+  color: white;
+  background-color: #3882f6;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 8px 30px;
+}
+
+.about-img {
+  height: 250px;
+  width: 500px;
+  margin: 120px 0;
+  margin-right: 150px;
+  border-radius: 10px;
 }
