@@ -38,7 +38,7 @@ header h3 {
   color: #e5e7eb;
   display: flex;
   justify-content: space-between;
-  height: 500px;
+  height: auto;
 }
 
 #about h1 {
@@ -123,3 +123,40 @@ header h3 {
   font-size: 30px;
   margin-bottom: 50px;
 }
+
+/* Sign up */
+
+#sign-up {
+  height: 100px;
+}
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.sign-up-box {
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 800px;
+  border-radius: 10px;
+  padding: 0 10px;
+  display: flex;
+}
+
+.btn-container {
+  margin: auto;
+}
+
+.sign-up-btn2 {
+  color: white;
+  background-color: #3882f6;
+  border-width: 3px;
+  border-color: #f9faf8;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 8px 30px;
+}
+
+/* Footer */
