@@ -133,7 +133,7 @@ header h3 {
 .sign-up-container {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin: 50px;
 }
 
 .sign-up-box {
@@ -160,3 +160,12 @@ header h3 {
 }
 
 /* Footer */
+
+#footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  margin-top: 50px;
+}
