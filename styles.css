@@ -66,3 +66,40 @@ header h3 {
   margin-right: 150px;
   border-radius: 10px;
 }
+
+/* Information */
+
+#information {
+  background-color: white;
+}
+
+#information h2 {
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 50px;
+}
+
+.info {
+  height: 300px;
+  width: 100px;
+}
+
+.info p {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.info img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
