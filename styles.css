@@ -103,3 +103,23 @@ header h3 {
   width: 150px;
   border-radius: 10px;
 }
+
+/* Testimonials */
+
+#testimonial {
+  background-color: #e5e7eb;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.test-container {
+  font-size: 36px;
+  width: 800px;
+}
+
+.author {
+  margin-left: 600px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
